@@ -32,7 +32,7 @@ namespace TenDigitFibonacci
              * F11 = 89
              * F12 = 144
              * 
-             * A 10 digit number would look like: 1,000,000,000, so we would want the result to be less than 1billion (999,999,999)
+             * Note for myself: A 10 digit number would look like: 1,000,000,000 (billion)
              * 
              */
 
@@ -42,7 +42,7 @@ namespace TenDigitFibonacci
 
             ArrayList fiboTenIndex = new ArrayList(); //create an array list to hold the values so I can count them in while loop to find index
 
-            while (sum < 1000000000) //10 digits
+            while (sum < 1000000000) //first instance of 10 digits
             {
                 sum = n1 + n2; //sum (resulting next number) is first number + second number in fibo sequence
 
